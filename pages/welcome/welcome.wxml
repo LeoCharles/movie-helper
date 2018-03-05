@@ -1,0 +1,7 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <text class="user-name">小灯电影助手</text>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">开启光影之旅</text>
+  </view>
+</view>

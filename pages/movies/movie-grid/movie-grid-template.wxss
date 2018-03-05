@@ -1,0 +1,11 @@
+@import "../movie/movie-template.wxss";
+
+.grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 40rpx 0;
+}
+.single-movie-container {
+  margin-bottom: 40rpx; 
+}

@@ -1,0 +1,22 @@
+/* pages/movies/move/move-template.wxss */
+@import "../stars/stars-template.wxss";
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 22rpx 10rpx;
+}
+.movie-img {
+  width: 200rpx;
+  height: 270rpx;
+  padding-bottom: 20rpx;
+}
+.movie-title {
+  width: 200rpx;
+  margin-bottom: 16rpx;
+  font-size: 24rpx;
+  text-align: justify;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

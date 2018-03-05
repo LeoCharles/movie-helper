@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/movies/movies",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  }
+}
