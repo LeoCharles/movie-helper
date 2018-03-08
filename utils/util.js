@@ -55,8 +55,6 @@ function http(url, callBack) {
   })
 }
 
-
-
 module.exports = {
   convertToStarsArray: convertToStarsArray,
   convertToCastString: convertToCastString,
