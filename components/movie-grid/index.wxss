@@ -1,0 +1,11 @@
+/* components/movie-grid/index.wxss */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40rpx 0;
+}
+
+.single-movie-container {
+  margin-bottom: 40rpx;
+}

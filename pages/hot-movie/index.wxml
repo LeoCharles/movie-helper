@@ -1,0 +1,5 @@
+<!--正在热映-->
+<view class="movie-list-container">
+  <search bind:search="onShearchMovie"></search>
+  <movie-grid movie-list="{{movieList}}"></movie-grid>
+</view>

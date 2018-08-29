@@ -1,10 +1,32 @@
 {
   "pages": [
-    "pages/welcome/welcome",
+    "pages/hot-movie/index",
     "pages/movies/movies",
     "pages/movies/movie-detail/movie-detail",
-    "pages/movies/more-movie/more-movie"
+    "pages/movies/more-movie/more-movie",
+    "pages/preview-movie/index",
+    "pages/top-movie/index"
   ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/hot-movie/index",
+        "text": "正在热映"
+      },
+      {
+        "pagePath": "pages/preview-movie/index",
+        "text": "即将上映"
+      },
+      {
+        "pagePath": "pages/top-movie/index",
+        "text": "豆瓣佳片"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#405f80",

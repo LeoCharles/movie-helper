@@ -1,0 +1,10 @@
+/* components/starts/index.wxss */
+.stars-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.score {
+  color: #1f3463;
+  margin-right: 10rpx;
+}

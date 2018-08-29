@@ -1,0 +1,29 @@
+/* components/search/index.wxss */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  background-color: #f2f2f2;
+}
+
+.icon-search {
+  margin: 0 20rpx;
+}
+
+.icon-close {
+  margin: 0 20rpx;
+}
+
+.input {
+  height: 100%;
+  width: 80%;
+  font-size: 14px;
+}
+
+.input-placeholder {
+  margin-left: 20rpx;
+}
+
+
+

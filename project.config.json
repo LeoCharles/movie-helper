@@ -8,7 +8,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
+	"libVersion": "2.2.4",
 	"appid": "wx65610d1724394df9",
 	"projectname": "%E5%B0%8F%E7%81%AF%E7%94%B5%E5%BD%B1%E5%8A%A9%E6%89%8B",
 	"condition": {

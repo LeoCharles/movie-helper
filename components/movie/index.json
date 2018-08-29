@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "starts": "../../components/starts/index"
+  }
+}

@@ -1,0 +1,7 @@
+<!-- 电影组件 -->
+<view class="movie-container" catchtap="onMovieTap" data-movieId="{{movie.movieId}}">
+  <image class="movie-img" src="{{movie.coverageUrl}}"></image>
+  <text class="movie-title">{{movie.title}}</text>
+  <starts class="movie-score" score="{{movie.score}}"></starts>
+</view>
+

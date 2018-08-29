@@ -1,0 +1,12 @@
+<!--components/starts/index.wxml-->
+<view class="stars-container">
+  <i-rate class="rate" value="{{parse.getRate(score)}}" size="12"></i-rate>
+  <text class="score">{{score}}</text>
+</view>
+<wxs module="parse">
+module.exports = {
+  getRate: function(score){
+      return Math.round(score/2)
+  }
+}
+</wxs>
