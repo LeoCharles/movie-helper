@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "豆瓣佳片"
+  "navigationBarTitleText": "豆瓣佳片",
+  "usingComponents": {
+    "movie-page": "../../components/movie-page/index"
+  }
 }

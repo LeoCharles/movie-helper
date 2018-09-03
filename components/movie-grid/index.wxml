@@ -1,4 +1,4 @@
-<!--components/movie-grid/index.wxml-->
+<!--电影列表-->
 <view class="grid-container">
   <block wx:for="{{movieList}}" wx:for-item="movie" wx:key="index">
     <movie movie="{{movie}}" class="single-movie-container"></movie>

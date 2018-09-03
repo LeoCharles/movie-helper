@@ -1,25 +1,19 @@
 {
   "pages": [
     "pages/hot-movie/index",
-    "pages/movies/movies",
-    "pages/movies/movie-detail/movie-detail",
-    "pages/movies/more-movie/more-movie",
     "pages/preview-movie/index",
-    "pages/top-movie/index"
+    "pages/top-movie/index",
+    "pages/movie-detail/index"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/movies/movies",
-        "text": "首页"
+        "pagePath": "pages/preview-movie/index",
+        "text": "即将上映"
       },
       {
         "pagePath": "pages/hot-movie/index",
         "text": "正在热映"
-      },
-      {
-        "pagePath": "pages/preview-movie/index",
-        "text": "即将上映"
       },
       {
         "pagePath": "pages/top-movie/index",

@@ -1,2 +1,2 @@
-<!--pages/preview-movie/index.wxml-->
-<text>即将上映</text>
+<!--即将上映-->
+<movie-page id="movie-page" category="coming_soon"></movie-page>

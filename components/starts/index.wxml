@@ -1,4 +1,4 @@
-<!--components/starts/index.wxml-->
+<!--评分组件-->
 <view class="stars-container">
   <i-rate class="rate" value="{{parse.getRate(score)}}" size="12"></i-rate>
   <text class="score">{{score}}</text>

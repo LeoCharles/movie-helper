@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
+    "movie-grid": "../movie-grid/index",
     "i-icon": "../icon/index"
   }
 }

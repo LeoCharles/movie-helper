@@ -1,5 +1,4 @@
-<!--pages/movies/movies-detail/movies-detail.wxml-->
-<import src="../stars/stars-template.wxml" />
+<!--pages/movies/movies-detail/index.wxml-->
 <view class="container">
   <view class="head-container">
     <image class="head-img" src="{{movie.movieImg}}" mode="aspectFill" />
@@ -22,7 +21,8 @@
     </view>
     <view class="flex-row">
       <text class="mark">评分</text>
-      <template is="starsTemplate" data="{{stars:movie.stars, score:movie.score}}" />
+      <!-- <template is="starsTemplate" data="{{stars:movie.stars, score:movie.score}}" /> -->
+      <starts class="movie-score" score="{{movie.average}}"></starts>
     </view>
     <view class="flex-row">
       <text class="mark">导演</text>

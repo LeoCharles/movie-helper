@@ -1,0 +1,12 @@
+<!--电影页面组件-->
+<view class="movie-page-container">
+  <view class="search-container">
+    <i-icon type="search" class="icon-search" size="24" color="#405f80"></i-icon>
+    <input type="text" class="input" value="{{value}}" placeholder="搜索电影" bindfocus="onBindFocus" bindconfirm="onBindConfirm" confirm-type="search" />
+    <i-icon type="close" class="icon-close" size="20" color="#405f80" wx:if="{{showClose}}" bindtap="onCancelTap"></i-icon>
+  </view>
+  <view class="movie-container">
+    <movie-grid movie-list="{{movieList}}" wx:if="{{!showSearchPannel}}"></movie-grid>
+    <movie-grid movie-list="{{searchResult}}" wx:else></movie-grid>
+  </view>
+</view>

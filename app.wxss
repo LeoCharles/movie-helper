@@ -9,6 +9,6 @@
 } 
 text {
   font-family: MicroSoft Yahei;
-  font-size: 24rpx;
+  font-size: 12px;
   color: #333;
 }

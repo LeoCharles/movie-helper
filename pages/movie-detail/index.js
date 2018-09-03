@@ -1,16 +1,20 @@
-// pages/movies/movies-detail/movies-detail.js
-var util = require('../../../utils/util.js');
-var app = getApp();
-Page({
+// pages/movies/movies-detail/index.js
+let util = require('../../utils/util.js')
+let app = getApp()
 
+Page({
   data: {
     movie: {}
   },
 
   // 监听页面加载
   onLoad: function (options) {
-    var movieId = options.id;
-    var detailUrl = app.globalData.doubanBase + '/v2/movie/subject/' + movieId;
+    let movieId = options.id;
+    let detailUrl = app.globalData.doubanBase + '/v2/movie/subject/' + movieId;
+    wx.showLoading({
+      title: '加载中...',
+      mask: true
+    })
     util.http(detailUrl, this.processDoubanData);
   },
 
@@ -19,11 +23,11 @@ Page({
     if(!data){
       return;
     }
-    var director = {
+    let director = {
       avatar: '',
       name: '',
       id: ''
-    };
+    }
     if(data.directors[0] != null) {
       if(data.directors[0].avatars != null) {
         director.avatar = data.directors[0].avatars.large
@@ -31,7 +35,7 @@ Page({
       director.name = data.directors[0].name;
       director.id = data.directors[0].id;
     }
-    var movie = {
+    let movie = {
       movieImg: data.images ? data.images.large : '',
       country: data.countries[0],
       title: data.title,
@@ -40,24 +44,24 @@ Page({
       commentCount: data.comments_count,
       year: data.year,
       genres: data.genres.join('、'),
-      stars: util.convertToStarsArray(data.rating.stars),
-      score: data.rating.average,
+      average: data.rating.average,
       director: director,
       casts: util.convertToCastString(data.casts),
       castsInfo: util.convertToCastInfo(data.casts),
       summary: data.summary
-    };
+    }
     this.setData({
       movie:movie
     })
+    wx.hideLoading()
   },
 
   // 点击查看图片
   viewMoviePostImg: function (event) {
-    var src = event.currentTarget.dataset.src;
+    let src = event.currentTarget.dataset.src
     wx.previewImage({
-      urls: [src], // 需要预览图片http链接列表
-      current: src // 当前需要显示的http链接
+      urls: [src], // 需要预览图片链接列表
+      current: src // 当前需要显示的链接
     })
   },
 

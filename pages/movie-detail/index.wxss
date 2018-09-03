@@ -1,5 +1,3 @@
-/* pages/movies/movies-detail/movies-detail.wxss */
-@import "../stars/stars-template.wxss";
 .container {
   display: flex;
   flex-direction: column;

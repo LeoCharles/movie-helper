@@ -1,7 +1,6 @@
 {
   "navigationBarTitleText": "正在热映",
   "usingComponents": {
-    "movie-grid": "../../components/movie-grid/index",
-    "search": "../../components/search/index"
+    "movie-page": "../../components/movie-page/index"
   }
 }

@@ -1,2 +1,2 @@
-<!--pages/top-movie/index.wxml-->
-<text>豆瓣佳片</text>
+<!--豆瓣佳片-->
+<movie-page id="movie-page" category="top250"></movie-page>

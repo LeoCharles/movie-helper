@@ -1,4 +1,3 @@
-/* components/movie/index.wxss */
 .movie-container {
   width: 200rpx;
   display: flex;
