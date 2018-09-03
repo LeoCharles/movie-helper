@@ -1,3 +1,5 @@
 # 小灯电影助手
 
-![小灯电影助手](img/movie-helper.png)
++ 请使用微信扫一扫查看
+
+![小灯电影助手](img/helper.png)
